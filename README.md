@@ -77,6 +77,13 @@ You can find the latest SNAPSHOT version including javadoc and source files on [
           <version>1.4.1-SNAPSHOT</version>
     </dependency>
 
+## Docker-Java gradle dependencies
+
+### Latest release version
+    dependencies {
+        testCompile 'com.github.docker-java:docker-java:1.4.0'
+    }
+    
 ## Documentation
 
 For code examples, please look at the [Wiki](https://github.com/docker-java/docker-java/wiki) or [Test cases](https://github.com/docker-java/docker-java/tree/master/src/test/java/com/github/dockerjava/core/command "Test cases")
